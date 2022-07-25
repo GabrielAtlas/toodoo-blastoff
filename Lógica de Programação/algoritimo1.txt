@@ -1,0 +1,7 @@
+Início
+ Entrar com as 4 notas
+ Calcular média
+ Verificar se a média é maior ou igual a 7.0
+ Se sim, apresentar no vídeo "Aprovado"
+ Se não, apresentar no vídeo "Reprovado"
+Fim
