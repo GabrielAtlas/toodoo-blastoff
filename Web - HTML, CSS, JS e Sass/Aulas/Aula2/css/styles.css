@@ -1,0 +1,7 @@
+#box1 > div ~ p {
+  color: blue;
+}
+
+#box2 > div + p {
+  color: yellow;
+}
