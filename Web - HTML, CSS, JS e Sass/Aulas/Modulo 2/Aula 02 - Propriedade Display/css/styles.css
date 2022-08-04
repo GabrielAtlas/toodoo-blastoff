@@ -1,0 +1,18 @@
+/* Propriedade Display */
+
+div,
+span,
+#bloco_inline,
+#inline_bloco {
+  background: blue;
+  color: white;
+  font-size: 20pt;
+}
+
+#bloco_inline {
+  display: inline;
+}
+
+#inline_bloco {
+  display: block;
+}
