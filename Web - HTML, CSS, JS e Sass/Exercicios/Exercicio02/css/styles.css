@@ -1,0 +1,40 @@
+body {
+  background-color: #add8e6;
+  border: 3px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+div {
+  color: #ffff;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 500px;
+  height: 250px;
+}
+
+#estudo {
+  margin-top: 50px;
+  background-color: #006400;
+  height: 50px;
+  width: 200px;
+}
+
+#externa1 {
+  background-color: #808080;
+  width: 30%;
+}
+
+#externa2 {
+  background-color: #daa520;
+  width: 90%;
+  height: 80%;
+}
+
+#externa3 {
+  background-color: #90ee90;
+  width: 90%;
+  height: 70%;
+  color: #2240f5;
+}
