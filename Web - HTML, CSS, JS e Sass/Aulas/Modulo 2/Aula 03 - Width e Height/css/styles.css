@@ -1,0 +1,25 @@
+#box1,
+#box2,
+#box3 {
+  background: blue;
+  color: white;
+  font-size: 16pt;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#box1 {
+  width: auto;
+  height: auto;
+}
+
+#box2 {
+  width: 300px;
+  height: 300px;
+}
+
+#box3 {
+  width: 70%;
+  height: 40%; /* NÃO SERÁ APLICADO POIS ESTÁ NO BODY. PARA FUNCIONAR É NECESSÁRIO TER UMA DIV PAI COM ALTURA DEFINIDA */
+}
