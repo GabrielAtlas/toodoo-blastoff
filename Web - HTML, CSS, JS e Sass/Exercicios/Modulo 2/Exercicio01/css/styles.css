@@ -1,0 +1,39 @@
+html {
+  background-color: gray;
+}
+
+textarea {
+  display: block;
+  background: blue;
+  border: solid 2px black;
+  font-size: 16pt;
+  min-width: 70%;
+  max-width: 80%;
+  min-height: 400px;
+  max-height: 600px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#box {
+  width: 80%;
+  background-color: darkgrey;
+  border: solid 3px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+#container {
+  width: 98%;
+  margin: auto;
+  border: solid;
+  background-image: url(../images/matrix-verde.jpg);
+  border-image-source: url(../images/matrix-vermelha.png);
+  border-image-slice: 15;
+  border-image-width: 20px;
+  border-image-outset: 5px;
+  border-image-repeat: round;
+}

@@ -1,0 +1,1 @@
+Não tem todas as aulas aqui pois era um conteúdo que eu já sabia e então não anotei tudo
