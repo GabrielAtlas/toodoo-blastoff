@@ -1,0 +1,43 @@
+header {
+  font-size: 24pt;
+  color: white;
+  text-align: center;
+}
+
+/*
+header {
+  position: static; posição padrão
+  position: relative; /* É necessário definir a propriedade relative para utilizar top, right, bottom, left
+  top: 100px;
+  left: 100px;
+
+  background: green;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+}
+*/
+
+header {
+  background: green;
+  height: 200px;
+  padding: 10px;
+}
+
+#container {
+  background: red;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#content {
+  background: yellow;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -30px;
+  left: -30px;
+}
