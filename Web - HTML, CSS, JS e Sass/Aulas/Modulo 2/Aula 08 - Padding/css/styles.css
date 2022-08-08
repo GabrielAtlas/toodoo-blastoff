@@ -1,0 +1,17 @@
+#container {
+  background-color: blue;
+  width: 500px;
+  margin: auto;
+  color: white;
+
+  /* PADDING */
+
+  /*
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  */
+
+  padding: 50px;
+}

@@ -1,0 +1,22 @@
+#box1 {
+  display: table;
+  background: blue;
+  border: solid 1px black;
+  margin: auto;
+}
+
+#box1A {
+  background: yellow;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+
+  /* MARGENS */
+  /*
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  */
+  margin: 10px 20px 30px 15px;
+}
