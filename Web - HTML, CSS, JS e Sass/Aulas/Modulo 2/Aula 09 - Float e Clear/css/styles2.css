@@ -1,0 +1,17 @@
+#pai {
+  width: 800px;
+  border: double 2px black;
+  border-radius: 7px;
+  margin: auto;
+  padding: 7px;
+  word-break: break-all;
+}
+
+#filho {
+  float: left;
+  background: yellow;
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
