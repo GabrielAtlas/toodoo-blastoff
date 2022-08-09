@@ -1,0 +1,29 @@
+header {
+  background: green;
+  height: 200px;
+  text-align: center;
+  font-size: 48pt;
+  color: white;
+  padding-top: 20px;
+}
+
+.box1 {
+  width: 700px;
+  height: 600px;
+  border: solid 1px black;
+  background: #ccc;
+  margin: 15px auto;
+}
+
+#box2 {
+  position: sticky;
+  top: 20px;
+  bottom: 20px;
+  width: 1024px;
+  background: red;
+  padding: 12px;
+  text-align: center;
+  font-size: 24pt;
+  color: white;
+  margin: auto;
+}

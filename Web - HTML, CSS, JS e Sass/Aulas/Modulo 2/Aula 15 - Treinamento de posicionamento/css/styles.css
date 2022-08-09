@@ -1,0 +1,60 @@
+header {
+  background: green;
+  font-size: 48pt;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+#pai {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+}
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border: solid 1px black;
+  font-size: 48pt;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 100%;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+#box1 {
+  background: red;
+  top: 30px;
+  left: 30px;
+  z-index: 4;
+}
+
+#box2 {
+  background: blue;
+  top: 30px;
+  right: 30px;
+  z-index: 3;
+}
+
+#box3 {
+  background: green;
+  bottom: 30px;
+  left: 30px;
+  z-index: 2;
+}
+
+#box4 {
+  background: orange;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
