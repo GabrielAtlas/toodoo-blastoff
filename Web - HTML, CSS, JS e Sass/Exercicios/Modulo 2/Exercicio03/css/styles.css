@@ -1,0 +1,28 @@
+#box {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  display: inline;
+}
+
+#text {
+  display: contents;
+  float: right;
+  width: 300px;
+}
+
+#author {
+  float: right;
+}
