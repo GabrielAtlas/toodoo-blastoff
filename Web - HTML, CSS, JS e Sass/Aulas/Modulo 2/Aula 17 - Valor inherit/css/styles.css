@@ -1,0 +1,15 @@
+#pai {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: solid 7px grey;
+  border-radius: 30% 0 30% 0;
+}
+
+#filho {
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+  border: inherit;
+  border-radius: inherit;
+}

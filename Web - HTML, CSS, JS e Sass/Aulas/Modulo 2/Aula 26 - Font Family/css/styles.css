@@ -1,0 +1,26 @@
+header {
+  font-size: 48pt;
+  text-align: center;
+  background: green;
+  height: 100px;
+
+  padding: 20px;
+  color: white;
+}
+
+p {
+  font-size: 24pt;
+  text-align: center;
+}
+
+#p1 {
+  font-family: impact;
+}
+
+#p2 {
+  font-family: courier new, arial;
+}
+
+#p3 {
+  font-family: arial, sans-serif;
+}
