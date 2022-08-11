@@ -1,0 +1,23 @@
+header {
+  font-size: 48pt;
+  text-align: center;
+  background: green;
+  height: 100px;
+
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 350px;
+  border: solid 1px black;
+  margin: auto;
+  padding: 8px;
+  font-size: 16pt;
+
+  text-align-last: right;
+}

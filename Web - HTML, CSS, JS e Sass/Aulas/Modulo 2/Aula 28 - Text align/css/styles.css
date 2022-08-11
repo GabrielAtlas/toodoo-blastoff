@@ -1,0 +1,37 @@
+header {
+  font-size: 48pt;
+  text-align: center;
+  background: green;
+  height: 100px;
+
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  width: 400px;
+  border: solid 1px black;
+  font-size: 16pt;
+  padding: 8px;
+  margin: auto;
+}
+
+#esquerda {
+  text-align: left;
+}
+
+#direita {
+  text-align: right;
+}
+
+#justify {
+  text-align: justify;
+}
+
+#centro {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+header {
+  font-size: 48pt;
+  text-align: center;
+  background: green;
+  height: 100px;
+
+  padding: 20px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 20pt;
+}
+
+#p1 {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-decoration-style: dotted;
+}
+
+#p2 {
+  text-decoration-line: overline;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+}
+
+#p3 {
+  text-decoration-line: line-through;
+  text-decoration-color: green;
+  text-decoration-style: wavy;
+}

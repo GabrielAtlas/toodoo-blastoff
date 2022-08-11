@@ -1,0 +1,26 @@
+header {
+  font-size: 48pt;
+  text-align: center;
+  background: green;
+  height: 100px;
+
+  padding: 20px;
+  color: white;
+}
+
+p {
+  text-align: center;
+  font-size: 20pt;
+}
+
+#p1 {
+  text-transform: capitalize;
+}
+
+#p2 {
+  text-transform: uppercase;
+}
+
+#p3 {
+  text-transform: lowercase;
+}
