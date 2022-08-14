@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criando tabela html personalizada</title>
+    <style>
+      header {
+        font-size: 48pt;
+        text-align: center;
+        background: green;
+        height: 100px;
+
+        padding: 20px;
+        color: white;
+        margin-bottom: 200px;
+      }
+
+      table {
+        width: 500px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: auto;
+        text-align: center;
+      }
+
+      th {
+        background: #273460;
+        color: white;
+        font-size: 18pt;
+        padding: 20px;
+      }
+
+      td {
+        border: 1px solid black;
+        background: #c7cfed;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Criando tabela html personalizada</header>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="3">cabeçalho da tabela</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">celula</td>
+          <td colspan="2">celula</td>
+        </tr>
+
+        <tr>
+          <td>celula</td>
+          <td>celula</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr>
+          <td rowspan="2">celula</td>
+          <td colspan="2">celula</td>
+        </tr>
+
+        <tr>
+          <td>celula</td>
+          <td>celula</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">rodapé da tabela</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

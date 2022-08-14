@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seções da tabela html</title>
+    <style>
+      header {
+        font-size: 48pt;
+        text-align: center;
+        background: green;
+        height: 100px;
+
+        padding: 20px;
+        color: white;
+        margin-bottom: 200px;
+      }
+      table {
+        width: 500px;
+        margin: auto;
+      }
+
+      table,
+      td,
+      th {
+        border: solid 1px black;
+        border-radius: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      thead th {
+        background: black;
+        color: white;
+      }
+
+      caption {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Seções da tabela html</header>
+    <table>
+      <caption>
+        Titulo da tabela
+      </caption>
+      <thead>
+        <tr>
+          <th colspan="3">Cabeçalho da tabela</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Linha 1-->
+        <tr>
+          <td rowspan="4">Celula 1</td>
+          <td>Celula 2</td>
+          <td>Celula 3</td>
+        </tr>
+        <!-- Linha 2-->
+
+        <tr>
+          <td>Celula 2</td>
+          <td>Celula 3</td>
+        </tr>
+        <!-- Linha 3-->
+
+        <tr>
+          <td>Celula 2</td>
+          <td>Celula 3</td>
+        </tr>
+        <!-- Linha 4-->
+        <tr>
+          <td>Celula 2</td>
+          <td>Celula 3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Roda pé</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
