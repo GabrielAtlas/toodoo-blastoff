@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elementos select e option</title>
+    <style type="text/css">
+      header {
+        font-size: 48pt;
+        text-align: center;
+        background: green;
+        height: 100px;
+
+        padding: 20px;
+        color: white;
+        margin-bottom: 200px;
+      }
+
+      form {
+        margin: auto;
+      }
+
+      textarea {
+        width: 300px;
+        height: 300px;
+        resize: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Elementos select e option</header>
+    <form>
+      <label for="carros">Carros:</label>
+      <br />
+      <select name="carros" id="carros">
+        <!-- Volkswagen -->
+        <optgroup label="Volkswagen">
+          <option>kombi</option>
+          <option>fusca</option>
+        </optgroup>
+
+        <!-- Fiat -->
+        <optgroup label="Fiat">
+          <option>uno</option>
+        </optgroup>
+
+        <!-- Ford -->
+        <optgroup label="Ford">
+          <option>eco-sport</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>
