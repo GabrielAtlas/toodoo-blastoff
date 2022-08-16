@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questão 08</title>
+  </head>
+  <style type="text/css">
+    table {
+      margin: auto;
+    }
+    tbody {
+      font-family: Arial, sans-serif;
+    }
+
+    table input[type="reset"] {
+      display: block;
+      margin: 0 auto;
+    }
+
+    table input[type="radio"] {
+      margin-right: 5px;
+    }
+  </style>
+  <body>
+    <table>
+      <caption>
+        <h2>Ficha Cadastral</h2>
+      </caption>
+      <form>
+        <tbody>
+          <tr>
+            <td><label for="name">Nome:</label></td>
+            <td colspan="3">
+              <input style="width: 100%" type="text" id="name" maxlength="55" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="rg">RG:</label></td>
+            <td><input type="text" id="rg" maxlength="13" /></td>
+            <td><label for="cpf">CPF:</label></td>
+            <td>
+              <input style="width: 100%" type="text" id="cpf" maxlength="13" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="endereco" maxlength="55">Endereço:</label></td>
+            <td colspan="3">
+              <input style="width: 100%" type="text" id="endereco" />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="sex">Sexo:</label></td>
+            <td>
+              <select name="sex" id="sex">
+                <option>Masculino</option>
+                <option>Feminino</option>
+              </select>
+            </td>
+            <td><label for="birthday">Data de nascimento:</label></td>
+            <td>
+              <input
+                style="width: 100%"
+                type="date"
+                id="birthday"
+                maxlength="13"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="situation">Situação Civil:</label></td>
+            <td><input type="radio" id="solteiro" />Solteiro(a)</td>
+            <td><input type="radio" id="casado" />Casado(a)</td>
+            <td><input type="radio" id="viuvo" />Viúvo(a)</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td colspan="4" id="resetar">
+            <input type="reset" value="Limpar dados" />
+          </td>
+        </tfoot>
+      </form>
+    </table>
+  </body>
+</html>
