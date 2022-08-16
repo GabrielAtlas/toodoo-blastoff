@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questao 01</title>
+  </head>
+  <style type="text/css">
+    table {
+      width: 600px;
+      margin: auto;
+    }
+    caption {
+      padding: 20px;
+      text-align: left;
+    }
+
+    caption > h3 {
+      color: green;
+    }
+
+    tbody > tr > td > input {
+      width: 100%;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+    }
+  </style>
+  <body>
+    <table>
+      <caption>
+        <h3>Contato IFBA</h3>
+        <p>
+          Rua José Rodrigues dos Santos, S/N - Bairro Nobre <br />Brumado - BA -
+          Brasil<br />Telefone: (77) 3441-2405
+        </p>
+      </caption>
+      <form>
+        <tbody>
+          <tr>
+            <td>Nome:</td>
+            <td><input type="text" id="nome" maxlength="75" /></td>
+          </tr>
+          <tr>
+            <td>E-mail:</td>
+            <td><input type="email" id="email" maxlength="75" /></td>
+          </tr>
+          <tr>
+            <td>Assunto:</td>
+            <td><input type="text" id="assunto" maxlength="75" /></td>
+          </tr>
+          <tr>
+            <td>Mensagem:</td>
+            <td>
+              <textarea id="mensagem" maxlength="60" required></textarea>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <td><input type="submit" value="Enviar" /></td>
+        </tfoot>
+      </form>
+    </table>
+  </body>
+</html>
