@@ -1,0 +1,32 @@
+header {
+  background: green;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 100px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background: blue;
+  padding: 7px;
+}
+
+#container > div:first-child {
+  grid-column: 1/4;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#item {
+  background: white;
+  font-size: 24pt;
+  text-align: center;
+  border: solid 1px black;
+}
