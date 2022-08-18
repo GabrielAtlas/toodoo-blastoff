@@ -1,0 +1,26 @@
+header {
+  background: green;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 100px;
+}
+
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position: 50px 200px;
+  background-attachment: fixed;
+}
+
+div {
+  background: rgba(0, 255, 0, 0.3);
+  width: 800px;
+  height: 500px;
+  border: solid 5px #ccc;
+  border-radius: 12px;
+  margin: 15px auto;
+}

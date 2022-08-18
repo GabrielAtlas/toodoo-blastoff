@@ -1,0 +1,26 @@
+header {
+  background: green;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 100px;
+}
+
+#box {
+  width: 800px;
+  height: 400px;
+  border: dashed 20px black;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 20px;
+
+  background-color: rgb(0, 225, 255);
+  /*background-image: url("https://www.kindpng.com/picc/m/266-2665762_hd-cachorro-png-imagens-de-cachorros-em-png.png");*/
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center; /* horizontal, vertical */
+  background-clip: content-box;
+}

@@ -1,0 +1,47 @@
+header {
+  background: green;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  width: 500px;
+  height: 500px;
+  border: solid 1px #000;
+  margin: auto;
+}
+
+#vertical {
+  /*background: linear-gradient(green, red, yellow);*/
+  background: linear-gradient(
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(255, 255, 255)
+  );
+}
+
+#horizontal {
+  background: linear-gradient(
+    -90deg,
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(255, 255, 255)
+  );
+}
+
+#diagonal {
+  background: linear-gradient(
+    to right top,
+    rgb(255, 0, 0),
+    rgb(255, 255, 0),
+    rgb(255, 255, 255)
+  );
+}

@@ -1,0 +1,25 @@
+header {
+  background: green;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 48pt;
+  margin-bottom: 100px;
+}
+
+#radial {
+  width: 400px;
+  height: 500px;
+  margin: 15px auto;
+  border: solid 1px black;
+  border-radius: 15px;
+
+  background: radial-gradient(
+    circle at 100%,
+    #333,
+    #333 50%,
+    #eee 75%,
+    #333 75%
+  );
+}

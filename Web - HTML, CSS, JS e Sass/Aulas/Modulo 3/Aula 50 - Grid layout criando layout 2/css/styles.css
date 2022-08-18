@@ -1,0 +1,51 @@
+* {
+  font-size: 36pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+#pagina {
+  width: 90%;
+  background: blue;
+
+  padding: 5px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 200px 600px 100px;
+  grid-template-areas:
+    "header header header"
+    "navegacao conteudo aside"
+    "footer footer footer";
+}
+
+header {
+  /*grid-column: 1/4;*/
+  grid-area: header;
+  margin-bottom: 5px;
+}
+
+nav {
+  background: #ffff;
+  /*grid-column: 1/2;*/
+  grid-area: navegacao;
+}
+
+#conteudo {
+  background: #ccc;
+  /*grid-column: 2/3;*/
+  grid-area: conteudo;
+}
+
+aside {
+  background: #fff;
+  /*grid-column: 3/4;*/
+  grid-area: aside;
+}
+
+footer {
+  background: #666;
+  /*grid-column: 1/4;*/
+  grid-area: footer;
+}
