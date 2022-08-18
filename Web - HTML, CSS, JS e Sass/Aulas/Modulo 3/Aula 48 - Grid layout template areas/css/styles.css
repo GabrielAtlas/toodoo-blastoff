@@ -10,15 +10,18 @@ header {
 
 #container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 10px;
   background: blue;
   padding: 7px;
+
+  grid-template-areas:
+    "item1 item1 item1"
+    "item2 item2 item3"
+    "item4 item5 item6";
+
+  gap: 10px;
 }
 
 #container > div:first-child {
-  grid-column: 1/4;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
