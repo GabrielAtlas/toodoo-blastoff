@@ -1,0 +1,56 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu > li:hover .sub {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+  width: 730px;
+  margin: auto;
+}
+
+li {
+  background: #1e317f;
+  display: block;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 16;
+
+  line-height: 40px;
+}
+
+li:hover {
+  background: #485ba5;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.sub {
+  display: none;
+}
+
+.sub2 {
+  display: none;
+  position: relative;
+  left: 120px;
+  top: -40px;
+}
+
+.sub li:hover > .sub2 {
+  display: block;
+}

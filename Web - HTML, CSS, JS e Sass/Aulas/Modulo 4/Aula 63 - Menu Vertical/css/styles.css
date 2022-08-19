@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+}
+
+#navigation {
+  margin: 15px;
+}
+
+#menu li:hover .sub {
+  display: block;
+}
+
+#home {
+  border-radius: 15px 15px 0px 0px;
+}
+
+#contato {
+  border-radius: 0px 0px 15px 15px;
+}
+
+li {
+  background: #1e317f;
+  width: 120px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  line-height: 40px;
+  display: block;
+}
+
+li:hover {
+  background: #485ba5;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.sub {
+  display: none;
+  position: relative;
+  left: 120px;
+  top: -40px;
+}

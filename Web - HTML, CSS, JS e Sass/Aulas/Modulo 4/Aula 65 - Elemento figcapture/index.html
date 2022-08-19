@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        background: black;
+      }
+      figure {
+        background: red;
+        width: fit-content;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <figure>
+      <img src="./images/carro.png" alt="Carro" />
+      <figcaption>Carro em PNG</figcaption>
+    </figure>
+
+    <picture>
+      <source srcset="./images/300px.png" media="(min-width: 500px)" />
+      <source srcset="./images/600px.png" media="(min-width: 200px)" />
+      <source srcset="./images/800px.png" media="(min-width: 400px)" />
+
+      <img src="./images/300px.png" />
+    </picture>
+  </body>
+</html>
