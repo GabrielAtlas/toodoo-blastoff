@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+#header-menu {
+  width: 100%;
+  background: #1f3180;
+}
+
+#header-menu > div {
+  display: flex;
+  width: 1110px;
+  margin: auto;
+}
+
+#logo {
+  position: relative;
+  height: 70px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 70%;
+  margin-left: auto;
+}
+
+#menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#menu > li:hover {
+  border-bottom: solid 2px white;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  font-size: 18pt;
+}
+
+#menu > li {
+  position: relative;
+}
+
+#social-icons {
+  height: 40px;
+  position: relative;
+  top: 22px;
+}
+
+.midia-social {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background: #1f3180;
+  padding: 0px 12px;
+  left: -10px;
+  top: 30px;
+}
+
+.submenu li {
+  width: 200px;
+  border-bottom: solid 2px #fff;
+  padding: 8px 0px;
+}
+
+#menu > li:hover .submenu {
+  display: block;
+}
+
+#menu li .submenu li:last-child {
+  border: none;
+}
+
+/* HOME */
+
+#header-slide {
+  border: solid 1px black;
+  height: 70vh;
+
+  width: 100%;
+  background: yellow;
+}
+
+#s-planos {
+  background: linear-gradient(#d8d8d8, transparent 50%);
+}
+
+#s-servicos {
+  background: #1f3180;
+}
+
+#slide {
+  width: 100%;
+  height: 100%;
+}
+
+#cont-planos,
+#cont-servicos {
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+  padding: 40px 0px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  border: solid 1px black;
+}
+
+#cont-planos > h1 {
+  font-size: 50pt;
+  text-align: center;
+  width: 100%;
+}
+
+/* RODAPÉ */

@@ -1,0 +1,18 @@
+.ml-icon {
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ml-icon-search {
+  background-position: 13px 10px;
+  width: 44px;
+  height: 40px;
+}
+
+.ml-icon-heart {
+  background-position: -2px -171px;
+  width: 13px;
+  height: 12px;
+}
