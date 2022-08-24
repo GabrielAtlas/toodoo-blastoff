@@ -8,7 +8,7 @@
 /* HEADER */
 
 header {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@ header {
   height: 54px;
   background: #fff059;
   border-bottom: 1px solid #d9d9d9;
+  z-index: 5;
 }
 
 .header-box {
@@ -81,6 +82,7 @@ header {
 
 .slide-container {
   display: flex;
+  flex-wrap: nowrap;
   margin: auto;
   height: 275px;
 }
@@ -174,4 +176,117 @@ header {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+}
+
+/* SECTION 2 */
+
+.categories-header {
+  text-align: center;
+}
+
+.categories-header h1 {
+  color: #666;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 20px 0px 5px 0px;
+}
+
+.categories-header p {
+  color: rgb(153, 153, 153);
+}
+
+.categorias-classificados {
+  float: left;
+  width: 20%;
+  height: 300px;
+}
+
+.categorias {
+  float: left;
+  width: 80%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.categories-content {
+  padding: 0 20px 0 150px;
+  position: relative;
+  overflow: visible;
+  padding-bottom: 70px;
+  margin-top: 40px;
+}
+
+.categories-content li {
+  display: fit-content;
+  margin-bottom: 6px;
+}
+
+.categories-content li > a {
+  border-radius: 4px;
+  font-size: 13px;
+  background-color: #eee;
+  color: #444;
+  line-height: 22px;
+  padding: 1px 10px;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 85%;
+  vertical-align: middle;
+}
+
+.categories-content li a:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+
+.categories-content h3 {
+  color: #999;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 1em;
+  margin: 5px 0 8px;
+}
+
+.categories-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+/* SECTION 3 */
+.registration-box {
+  background-color: #efefef;
+  padding: 40px;
+  text-align: center;
+}
+
+.registration-box h3 {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 400;
+  color: #888;
+}
+
+/* SECTION 4 */
+.main-information {
+  height: 265px;
+}
+
+/* SECTION 5 */
+.main-banners {
+  height: 300px;
+}
+
+.ml-btn {
+  padding: 5px 10px;
+  background-image: linear-gradient(#3e52a1, #2d3277);
+  color: #fff;
+  box-shadow: inset 0 1px #8ea2df;
+  border: 1px solid #2d3277;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 18px;
 }

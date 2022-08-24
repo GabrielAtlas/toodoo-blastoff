@@ -5,6 +5,13 @@
   vertical-align: middle;
 }
 
+.ml-icon2 {
+  background-image: url("../images/sprite2.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .ml-icon-search {
   background-position: 13px 10px;
   width: 44px;
@@ -15,4 +22,10 @@
   background-position: -2px -171px;
   width: 13px;
   height: 12px;
+}
+
+.ml-icon-verified {
+  background-position: 0 0;
+  height: 18px;
+  width: 18px;
 }
