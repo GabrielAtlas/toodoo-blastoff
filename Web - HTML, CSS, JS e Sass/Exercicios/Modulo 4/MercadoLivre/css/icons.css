@@ -12,6 +12,32 @@
   vertical-align: middle;
 }
 
+.payment-method {
+  background-image: url("../images/payment-methods.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.boleto {
+  width: 28px;
+  height: 18px;
+  background-position: left 0;
+}
+
+.visa {
+  width: 34px;
+  height: 11px;
+  background-position: left -165px;
+}
+
+.master-card {
+  width: 28px;
+  height: 17px;
+  background-position: left -126px;
+}
+
 .ml-icon-search {
   background-position: 13px 10px;
   width: 44px;

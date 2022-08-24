@@ -272,7 +272,65 @@ header {
 
 /* SECTION 4 */
 .main-information {
-  height: 265px;
+  background: #f5f5f5;
+  padding: 35px;
+}
+
+.payment-methods {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  margin: 20px 40px 20px 0px;
+  width: 18%;
+}
+
+.pague-online {
+  margin: 20px 40px 20px 0px;
+  width: 18%;
+}
+
+.information-box {
+  display: flex;
+  justify-content: center;
+}
+
+.information-box img {
+  display: block;
+  float: left;
+  padding: 10px 10px 0px 0px;
+}
+
+.information-box p {
+  color: #999;
+  line-height: 17px;
+  font-size: 13px;
+}
+
+.information-box h2 {
+  color: #666;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.information-box a:hover {
+  text-decoration: underline;
+}
+
+.information-box a {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.info-box a {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
 }
 
 /* SECTION 5 */
