@@ -114,6 +114,7 @@ header {
   display: inline;
   float: left;
   margin-right: 20px;
+  height: 250px;
 }
 
 .slide-offer-carousel li:hover {
@@ -234,6 +235,7 @@ header {
   text-decoration: none;
   max-width: 85%;
   vertical-align: middle;
+  transition: 0.2s;
 }
 
 .categories-content li a:hover {
@@ -333,9 +335,154 @@ header {
   margin-top: 20px;
 }
 
-/* SECTION 5 */
 .main-banners {
-  height: 300px;
+  padding: 20px 300px 20px 300px;
+}
+
+.phone-banner {
+  height: 70px;
+  align-items: center;
+  display: flex;
+  background: #7a858c;
+  border-radius: 5px;
+  margin: auto;
+
+  padding: 10px 40px 0px 200px;
+  margin-bottom: 40px;
+}
+
+.mobile-logos {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.mobile-phone {
+  position: relative;
+  bottom: 10px;
+}
+
+.phone-banner h4 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0 0 5px 0;
+}
+
+.phone-banner p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.phone-banner strong {
+  color: #fff200;
+}
+
+.phone-description {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.image-banner {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  color: rgb(153, 153, 153);
+  font-size: 13px;
+  margin-top: 130px;
+}
+
+.inner-footer li a {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 1rem;
+  color: #999;
+  text-decoration: none;
+}
+
+.inner-footer h5 {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+
+.footer-content ul {
+  display: inline;
+}
+
+.footer-content ul li {
+  display: inline;
+  border-right: 1px solid #eee;
+  padding: 0 7px;
+}
+
+.cnpj-info {
+  display: block;
+  margin-top: 5px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  border-top: 1px solid #eee;
+  padding: 11px 0 10px;
+}
+
+.hidden-footer {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  transition: height 1s;
+  height: 0;
+  overflow: hidden;
+}
+
+.inner-footer {
+  width: 80%;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(5, 20%);
+}
+
+.inner-footer .social-media a {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.inner-footer .social-media img {
+  width: 20px;
+}
+
+.footer-toggle {
+  display: block;
+  margin: auto;
+  padding: 6px 20px 8px 20px;
+  border: solid 1px #eeeeee;
+  border-radius: 5px 5px 0px 0;
+  background: #f9f9f9;
+  border-bottom: 0;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.footer-toggle i {
+  transition: transform 0.5s;
+}
+
+.visible-footer {
+  background: #f9f9f9;
+  width: 100%;
 }
 
 .ml-btn {

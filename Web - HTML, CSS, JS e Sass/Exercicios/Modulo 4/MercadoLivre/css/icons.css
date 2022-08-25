@@ -20,6 +20,15 @@
   vertical-align: middle;
 }
 
+.arrow {
+  width: 12px;
+  height: 14px;
+  background-image: url("../images/arrow-top.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .boleto {
   width: 28px;
   height: 18px;
