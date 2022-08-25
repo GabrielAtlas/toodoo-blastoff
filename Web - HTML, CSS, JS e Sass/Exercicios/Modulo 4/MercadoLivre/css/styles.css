@@ -476,6 +476,21 @@ footer {
   text-align: center;
 }
 
+.discount-offer {
+  background-color: #ff4000;
+  border-radius: 100%;
+  color: #fff;
+  line-height: 14px;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  width: 46px;
+  height: 38px;
+}
+
 .footer-toggle i {
   transition: transform 0.5s;
 }
