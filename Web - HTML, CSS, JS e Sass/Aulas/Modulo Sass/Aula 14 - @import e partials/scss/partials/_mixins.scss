@@ -1,0 +1,8 @@
+@mixin teste {
+  background: red;
+}
+
+@mixin test2 {
+  margin: 0;
+  @content;
+}

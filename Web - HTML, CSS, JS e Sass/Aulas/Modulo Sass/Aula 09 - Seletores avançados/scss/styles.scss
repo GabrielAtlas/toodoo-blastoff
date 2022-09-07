@@ -1,0 +1,20 @@
+// sass --watch scss:css --style compressed
+
+@import "./variaveis.scss";
+
+nav {
+  font: {
+    // Para nao ter q ficar escrevendo font-family, font-style, font-...
+    family: Helvetica, arial, sans-serif;
+    style: italic;
+    size: 30px;
+    weight: bold;
+  }
+}
+
+button {
+  background: green;
+  &:hover {
+    background: red;
+  }
+}

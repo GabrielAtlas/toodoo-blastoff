@@ -1,0 +1,26 @@
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+}
+
+@for $i from 1 to 3 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+}
+
+@each $animal in dog, cat, fish, bird {
+  .animal-#{$animal} {
+    background-image: url("images/#{$animal}.png");
+  }
+}
+
+$i: 0;
+
+@while $i > 0 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+  $i: $i - 2;
+}
