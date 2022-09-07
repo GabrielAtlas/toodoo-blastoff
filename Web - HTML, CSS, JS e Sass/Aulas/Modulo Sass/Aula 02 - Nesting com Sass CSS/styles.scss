@@ -1,0 +1,8 @@
+p {
+  span {
+    background: red;
+  }
+  &:hover {
+    color: #ffff;
+  }
+}
