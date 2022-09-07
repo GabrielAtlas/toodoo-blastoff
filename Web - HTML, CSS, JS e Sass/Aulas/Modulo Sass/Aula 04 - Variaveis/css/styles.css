@@ -1,0 +1,13 @@
+.btn {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+}
+.btn.btn-laranja {
+  color: white;
+  background: orange;
+}
+
+/*# sourceMappingURL=styles.css.map */

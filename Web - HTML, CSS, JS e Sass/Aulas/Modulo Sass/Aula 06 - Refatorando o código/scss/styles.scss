@@ -1,0 +1,23 @@
+@import "./variaveis.scss";
+
+@mixin button-style($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+.btn {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+  cursor: pointer;
+
+  &.btn-laranja {
+    @include button-style($color-orange, #fff);
+  }
+
+  &.btn-roxo {
+  }
+}
