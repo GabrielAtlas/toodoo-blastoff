@@ -76,3 +76,17 @@ td {
 
   height: 30px;
 }
+
+.btn {
+  padding: 40px;
+  border: {
+    width: 1px;
+    style: solid;
+    radius: 8px;
+  }
+}
+
+.btn-follow {
+  @extend .btn;
+  color: blue;
+}
