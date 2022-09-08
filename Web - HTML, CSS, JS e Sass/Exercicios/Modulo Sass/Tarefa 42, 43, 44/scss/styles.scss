@@ -13,6 +13,11 @@
   #{$property}: calc($value / 16) + rem;
 }
 
+@mixin applyBox($radius, $sizing) {
+  border-radius: $radius;
+  box-sizing: $sizing;
+}
+
 header {
   @include bg-color(green, $color-white);
 
