@@ -1,0 +1,96 @@
+@import "./variaveis";
+
+@mixin bg-color($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+@mixin applyBorder() {
+  border: solid 1px #666;
+}
+
+@mixin toRem($property, $value) {
+  #{$property}: calc($value / 16) + rem;
+}
+
+header {
+  @include bg-color(green, $color-white);
+
+  height: 100px;
+
+  @include toRem(font-size, 66);
+
+  line-height: 100px;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+table {
+  @include applyBorder();
+
+  width: 600px;
+
+  margin: auto;
+
+  border-collapse: collapse;
+}
+
+th {
+  @include bg-color($color-rodape, $color-white);
+
+  @include applyBorder();
+
+  @include toRem(font-size, 24);
+
+  height: 60px;
+}
+
+td {
+  @include applyBorder();
+
+  padding-left: 5px;
+
+  height: 40px;
+}
+
+.esquerda {
+  background: $color-background;
+
+  text-align: center;
+
+  @include toRem(font-size, 21);
+
+  padding: 0px;
+}
+
+.direita {
+  background: #e5eaf9;
+
+  text-align: center;
+
+  padding: 0px;
+}
+
+#rodape {
+  @include bg-color($color-rodape, $color-white);
+
+  text-align: center;
+
+  height: 30px;
+}
+
+.btn {
+  padding: 40px;
+  border: {
+    width: 1px;
+    style: solid;
+    radius: 8px;
+  }
+}
+
+.btn-follow {
+  @extend .btn;
+  color: blue;
+}
