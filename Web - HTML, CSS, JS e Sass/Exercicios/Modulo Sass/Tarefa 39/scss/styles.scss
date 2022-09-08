@@ -1,0 +1,78 @@
+@import "./variaveis";
+
+@mixin bg-color($background, $color) {
+  background: $background;
+  color: $color;
+}
+
+@mixin applyBorder() {
+  border: solid 1px #666;
+}
+
+header {
+  @include bg-color(green, $color-white);
+
+  height: 100px;
+
+  font-size: 50pt;
+
+  line-height: 100px;
+
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+table {
+  @include applyBorder();
+
+  width: 600px;
+
+  margin: auto;
+
+  border-collapse: collapse;
+}
+
+th {
+  @include bg-color($color-rodape, $color-white);
+
+  @include applyBorder();
+
+  font-size: 18pt;
+
+  height: 60px;
+}
+
+td {
+  @include applyBorder();
+
+  padding-left: 5px;
+
+  height: 40px;
+}
+
+.esquerda {
+  background: $color-background;
+
+  text-align: center;
+
+  font-size: 16pt;
+
+  padding: 0px;
+}
+
+.direita {
+  background: #e5eaf9;
+
+  text-align: center;
+
+  padding: 0px;
+}
+
+#rodape {
+  @include bg-color($color-rodape, $color-white);
+
+  text-align: center;
+
+  height: 30px;
+}
