@@ -47,4 +47,4 @@ let bombaCombustivel = {
   },
 };
 
-bombaCombustivel.abastecerPorLitro(10);
+bombaCombustivel.abastecerPorLitro(-30);

@@ -1,3 +1,10 @@
+/*
+Construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
+      Para homens: (72.7*h) - 58
+      Para mulheres: (62.1*h) - 44.7
+        Ao concluir, faça o upload no seu repositório do GitHub.
+*/
+
 var form = document.getElementById("myForm");
 
 const resultElement = document.getElementById("result");
