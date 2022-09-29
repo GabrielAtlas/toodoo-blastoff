@@ -1,0 +1,16 @@
+{
+  "name": "tarefa-2",
+  "version": "1.0.0",
+  "description": "Tarefa for toodoo blastoff",
+  "main": "index.js",
+  "author": "Gabriel Costa",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch src/styles/scss:src/styles/css & sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/dist/css"
+  },
+  "dependencies": {
+    "bootstrap": "5.2.1",
+    "bootstrap-icons": "^1.9.1",
+    "jquery": "^3.6.1"
+  }
+}

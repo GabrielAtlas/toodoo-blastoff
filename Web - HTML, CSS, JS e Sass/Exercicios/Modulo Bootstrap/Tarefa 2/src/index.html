@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link href="./styles/css/styles.css" rel="stylesheet" />
+    <link
+      rel="SHORTCUT ICON"
+      href="https://www.microsoft.com/favicon.ico?v2"
+      type="image/x-icon"
+    />
+
+    <title>Home - Microsoft</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar nav-header navbar-expand-lg bg-dark navbar-dark d-flex justify-content-between p-4"
+      >
+        <a class="navbar-brand" href="https://www.microsoft.com/">
+          <img
+            src="../public/images/Microsoft_logo.png"
+            width="121"
+            height="26"
+            alt="Microsoft Logo"
+          />
+        </a>
+        <ul class="navbar-nav navigation-list">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Azure</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">DevOps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">NuGet</a>
+          </li>
+        </ul>
+        <button
+          class="toggle-button"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        >
+          <i class="bi bi-list" style="color: white; font-size: 30px"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div
+        class="offcanvas offcanvas-end bg-secondary text-light"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Produtos e Serviços</h5>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 justify-content-end pe-3">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://docs.microsoft.com/pt-br/dotnet/visual-basic/"
+                >Visual Basic</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://docs.microsoft.com/en-us/dynamicsax-2012/developer/x-language-programming-guide"
+                >X++</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                C#
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://docs.microsoft.com/pt-br/dotnet/csharp/"
+                    >C#</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://dotnet.microsoft.com/en-us/"
+                    >.NET</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://docs.microsoft.com/pt-br/sql/sql-server/?view=sql-server-ver16"
+                >SQL Server</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://docs.microsoft.com/pt-br/windows/wsl/"
+                >WSL</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://winworldpc.com/product/ms-dos/622"
+                >MS-DOS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-light"
+                aria-current="page"
+                href="https://docs.microsoft.com/pt-br/windows/"
+                >Windows</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+      <div class="container-fluid mt-5" id="main-container">
+        <div class="container text-center mb-5" id="main-header">
+          <h1 class="mb-4">
+            O que é <img src="../public/images/nuget.png" alt="Nuget Logo" /> ?
+          </h1>
+          <p>
+            NuGet é o gerenciador de pacotes da .NET. As ferramentas do cliente
+            NuGet fornecem a capacidade de produzir e consumir pacotes. O NuGet
+            Gallery é o repositório central de pacotes usado por todos os
+            autores e consumidores de pacotes.
+          </p>
+        </div>
+        <div class="container mt-5">
+          <div class="row mt-4">
+            <div class="col-sm text-center">
+              <img
+                src="../public/images/learn-icon.png"
+                alt="Learn Image"
+                class="mb-4"
+              />
+              <h3 class="mb-5">Aprender</h3>
+              <p>
+                Novo no NuGet? Comece com um passo a passo mostrando como o
+                NuGet alimenta seu desenvolvimento .NET.
+              </p>
+            </div>
+            <div class="col-sm text-center">
+              <img
+                src="../public/images/explore-icon.png"
+                alt="Explore Image"
+                class="mb-4"
+              />
+              <h3 class="mb-5">Explorar</h3>
+              <p>
+                Navegue pelos milhares de pacotes que desenvolvedores como você
+                criaram e compartilharam com a comunidade .NET.
+              </p>
+            </div>
+            <div class="col-sm text-center">
+              <img
+                src="../public/images/create-icon.png"
+                alt="Create Image"
+                class="mb-4"
+              />
+              <h3 class="mb-5">Criar</h3>
+              <p>
+                <!-- não consegui colocar max width aqui, por isso o texto ficou um pouco diferente. -->
+                Quer fazer seu primeiro pacote NuGet e compartilhá-lo com a
+                comunidade? Comece com esse passo a passo!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
