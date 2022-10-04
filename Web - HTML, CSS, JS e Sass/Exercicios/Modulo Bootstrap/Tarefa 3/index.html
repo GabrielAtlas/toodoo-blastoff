@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171627" />
+    <meta name="msapplication-TileColor" content="#171627" />
+    <meta
+      name="msapplication-config"
+      content="https://static-assets.bamgrid.com/product/disneyplus/favicons/browserconfig.d37606141422a80ddd9a30cae5ab204f.xml"
+    />
+    <link
+      rel="manifest"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/manifest.47b0db60a7af3649a86dce59229890e8.json"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon.85e279041d79e51b147c1b6feb4f981e.ico"
+    />
+    <link
+      rel="mask-icon"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/safari-pinned-tab.f78e1debd6a0496471c542612d2e4bc5.svg"
+      color="#ffffff"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/apple-touch-icon.4dd3b8a8853ed0608ee308aa7aa76f82.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://static-assets.bamgrid.com/product/disneyplus/favicons/favicon-32x32.3699f19f7fdff1a556c0953c12fb883f.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <title>Disney+ | Tron Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid tron-header" id="tron-header">
+        <button
+          class="btn btn-link"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasScrolling"
+          aria-controls="offcanvasScrolling"
+        >
+          <img src="./assets/images/disney-plus-logo-1 1.png" alt="Disney+" />
+        </button>
+
+        <img src="./assets/images/logo 1.png" alt="Tron" />
+      </div>
+    </header>
+    <main>
+      <div
+        class="offcanvas offcanvas-start text-bg-dark"
+        data-bs-scroll="true"
+        data-bs-backdrop="false"
+        tabindex="-1"
+        id="offcanvasScrolling"
+        aria-labelledby="offcanvasScrollingLabel"
+      >
+        <div class="offcanvas-header ps-2 pt-3">
+          <div
+            class="offcanvas-title d-flex align-items-center gap-3"
+            id="offcanvasScrollingLabel"
+          >
+            <img src="./assets/images/logo-disney-branco.png" alt="Disney" />
+            <p class="fs-2 fw-bolder text-uppercase m-0">Menu</p>
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body pt-4">
+          <ul
+            class="text-uppercase navbar-nav flex-grow-1 pe-3 justify-content-end fs-6 fw-bolder text-light"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Disney +</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Novidades</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Filmes
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Disney tickets</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Marvel insider</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Tv</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Rádio Disney</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Disney Pixar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Músicas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Férias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Aniversário mágico</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section>
+        <div class="container-fluid tron-slider" id="tron-slider">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/tron-slide-1.png"
+                  alt="First slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/tron-slide-1.png"
+                  alt="Second slide"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  class="d-block w-100"
+                  src="./assets/images/tron-slide-1.png"
+                  alt="Third slide"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container-fluid movies-container" id="movies">
+          <h1>Filmes</h1>
+          <div class="movies-list">
+            <div class="movie d-flex">
+              <img src="./assets/movies/tron-poster-1.png" alt="Movie Poster" />
+              <div class="movie-description">
+                <p>
+                  <b>Título:</b> Tron - Uma Odisseia Eletrônica
+                  <br />
+                  <b>Gênero:</b> Filme de ficção científica; filme de ação;
+                  filme de aventura
+                  <br />
+                  <b>Data de Lançamento:</b> 12 de agosto de 1982
+                  <br />
+                  <b>Diretor:</b> Steven Lisberger
+                  <br />
+                  <br />
+                  <b>Sinopse:</b> <br />
+                  Quando o talentoso engenheiro de computação Kevin Flynn
+                  descobre que Ed Dillinger, um executivo da sua empresa, está
+                  roubando seu projeto, tenta invadir o sistema. No entanto,
+                  Flynn é transportado para o mundo digital em um programa
+                  antagônico.
+                </p>
+              </div>
+            </div>
+            <div class="movie d-flex">
+              <img src="./assets/movies/tron-poster-2.png" alt="Movie Poster" />
+              <div class="movie-description">
+                <p>
+                  <b>Título:</b> Tron - O Legado
+                  <br />
+                  <b>Gênero:</b> Filme de ficção científica; filme de ação;
+                  filme de aventura
+                  <br />
+                  <b>Data de Lançamento:</b> 17 de dezembro de 2010
+                  <br />
+                  <b>Diretor:</b> Steven Lisberger
+                  <br />
+                  <b>Adaptação de: </b>Tron - Uma Odisseia Eletrônica
+                  <br />
+                  <br />
+                  <b>Sinopse:</b> <br />
+                  Sam, filho do famoso programador de jogos de computador Kevin
+                  Flynn, é assombrado há muito tempo pelo misterioso
+                  desaparecimento do pai. Um sinal estranho leva Sam ao
+                  fliperama de Flynn, onde é puxado para dentro de um mundo
+                  cibernético, o mesmo em que seu pai está preso há 20 anos. Sem
+                  receio, o guerreiro Quorra, Kevin e Sam procuram escapar de um
+                  universo que, embora magnífico, é muito mais avançado e
+                  perigoso do que Kevin tinha imaginado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <img src="./assets/images/walt-disney-logo.png" alt="Walt Disney" />
+        <p>Copyright © 2022 Toodoo Desenvolvimento de Software LTDA.</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
